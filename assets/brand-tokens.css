@@ -1,0 +1,46 @@
+/* Generated from design-tokens.json. No remote dependencies. */
+:root {
+  --background: #FFFFFF;
+  --surface: #F7FAFD;
+  --text: #182D49;
+  --muted: #52657B;
+  --border: #CBD8E5;
+  --accent: #275E9B;
+  --on-accent: #FFFFFF;
+  --brand-ink: #182D49;
+  --brand-sky: #BBD8EB;
+  --brand-ivory: #FFF8EF;
+  --brand-accent: #275E9B;
+  --brand-accent-dark: #8FC7F0;
+  --brand-paper: #F7FAFD;
+  --brand-white: #FFFFFF;
+  --brand-slate: #52657B;
+  --brand-line: #CBD8E5;
+  --brand-night: #101E31;
+  --brand-surface-dark: #1C304A;
+  --brand-muted-dark: #B7C8DB;
+  --brand-line-dark: #40546E;
+  --brand-success: #237154;
+  --brand-warning: #8A570C;
+  --brand-danger: #B43746;
+}
+[data-theme="dark"] {
+  --background: #101E31;
+  --surface: #1C304A;
+  --text: #FFF8EF;
+  --muted: #B7C8DB;
+  --border: #40546E;
+  --accent: #8FC7F0;
+  --on-accent: #101E31;
+}
+@media (prefers-color-scheme: dark) {
+:root:not([data-theme="light"]) {
+  --background: #101E31;
+  --surface: #1C304A;
+  --text: #FFF8EF;
+  --muted: #B7C8DB;
+  --border: #40546E;
+  --accent: #8FC7F0;
+  --on-accent: #101E31;
+}
+}
